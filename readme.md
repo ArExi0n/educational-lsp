@@ -538,23 +538,3 @@ See [`LICENSE`](LICENSE) for details.
 **`educationalsp` is an intentionally simple Go implementation of LSP designed to let you see and understand what happens between your editor and a language server.**
 
 ---
-
-## Start Here
-
-If you're completely new to LSP, don't start by reading the entire specification.
-
-Start the server.
-
-Open Neovim.
-
-Enable tracing.
-
-Make a change to a file.
-
-Watch the messages.
-
-Then ask:
-
-> **"Why did Neovim send this?"**
-
-That question is what this project is built to answer.
