@@ -5,7 +5,7 @@ type TextDocumentItem struct {
 	* the text document's url.
 	 */
 
-	URL string `json:"url"`
+	URI string `json:"uri"`
 
 	/**
 	* The text document's language identifiers.

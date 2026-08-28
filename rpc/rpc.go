@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-func EncodeMessahe(msg any) string {
+func EncodeMessage(msg any) string {
 	content, err := json.Marshal(msg)
 	if err != nil {
 		panic(err)

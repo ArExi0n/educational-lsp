@@ -1,11 +1,11 @@
 package lsp
 
-type PuslbishDiagnosticNotification struct {
+type PublishDiagnosticsNotification struct {
 	Notifications
-	Params PushbulletDiagnosticParams `json:"params"`
+	Params PublishDiagnosticsParams `json:"params"`
 }
 
-type PushbulletDiagnosticParams struct {
+type PublishDiagnosticsParams struct {
 	Uri         string       `json:"uri"`
 	Diagnostics []Diagnostic `json:"diagnostics"`
 }
@@ -13,7 +13,7 @@ type PushbulletDiagnosticParams struct {
 type Diagnostic struct {
 	Range Range `json:"range"`
 	// Severity defines how the message should be interpreted.
-	Severity DiagnosticSeverity `json:"severity"`
+	Severity int `json:"severity"`
 	// Code is a number that identifies this particular occurrence of the problem.
 	Code string `json:"code"`
 	// Source is a human-readable string describing the source of this

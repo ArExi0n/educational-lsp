@@ -21,8 +21,8 @@ type InitializeResponse struct {
 }
 
 type InitializeResult struct {
-	Capablities ServerCapablities `json:"capablities"`
-	ServerInfo  ServerInfo        `json:"serverInfo"`
+	Capablities ServerCapalities `json:"capablities"`
+	ServerInfo  ServerInfo       `json:"serverInfo"`
 }
 
 type ServerCapalities struct {
