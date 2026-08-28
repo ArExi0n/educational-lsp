@@ -75,11 +75,6 @@ They communicate using **JSON-RPC messages** over standard input/output.
 
 ---
 
-## The Goal
-
-The goal of this project is not to build the best language server.
-
-The goal is to make the following concepts easy to understand:
 
 ```text
 Editor
